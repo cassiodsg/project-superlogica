@@ -1,0 +1,26 @@
+main.content article.wrapper-1{
+    height: 600px;
+    background-image: linear-gradient(to right, var(--bg-first-color) , var(--bg-second-color));
+}
+
+main.content article.wrapper-2{
+    height: auto;
+    background-image: linear-gradient(to top, var(--bg-third-color), white);
+}
+
+main.content article.wrapper-3{
+    height: 364px;
+    background-color: white;
+}
+
+@media only screen and (min-width: 600px) {
+    main.content article.wrapper-1{
+        height: 500px;
+    }
+    main.content article.wrapper-2{
+        height: 575px;
+    }
+    main.content article.wrapper-3{
+        height: auto;
+    }
+}

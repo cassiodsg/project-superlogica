@@ -1,0 +1,38 @@
+header.header img {
+    height: 40px;
+    min-height: 40px;
+    cursor: pointer;
+}
+header.header a{
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 1280px) {
+    header.header div{
+        padding: 0 160px;
+    }
+    header.header img {
+        height: 2.5rem;
+        min-height: 10%;
+    }
+    header.header{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+@media (max-width: 1279px) and (min-width: 600px) {
+    header.header div{
+        padding: 0 20px;
+    }
+    header.header img {
+        height: 2.5rem;
+        min-height: 10%;
+    }
+    header.header{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
